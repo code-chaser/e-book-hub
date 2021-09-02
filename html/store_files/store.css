@@ -1,0 +1,42 @@
+/*
+LOGO COLORS:
+94A7FF
+444665
+181A1E
+BFCAFF 70% 
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Open+Sans:wght@300&display=swap');
+body {
+    min-height: 100%;
+    background-color: #0f0f11;
+}
+
+div.ts {
+    color: #94A7FF;
+    justify-content: center;
+    text-align: center!important;
+    vertical-align: middle!important;
+    margin: 30px auto;
+    width: 100vw;
+    height: 300px;
+    border: 1px solid #94A7FF;
+    border-width: 1px 0px;
+    background-color: #181A1Ecc;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+}
+
+.welcome-text {
+    color: #fff;
+    font-size: 80px;
+    font-family: 'Montserrat', sans-serif;
+    margin: auto 0px;
+}
+
+.lorem-ipsum {
+    color: #fff;
+    font-size: 15px;
+    font-family: sans-serif;
+}

@@ -10,17 +10,10 @@ BFCAFF 70%
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Open+Sans:wght@300&display=swap');
 body {
     min-height: 100%;
-    background: url("./../img/background6.png") no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
     background-color: #0f0f11;
-    color: #FFF;
-    padding: 0px;
 }
 
-.logo-img {
+.logo-img-kjkjkj {
     height: 100px;
     margin: 10px 10px 30px 10px;
     padding: 15px 5px;
@@ -28,7 +21,7 @@ body {
     transition: 0.5s;
 }
 
-.logo-img:hover {
+.logo-img-kjkjkj:hover {
     height: 110px;
     margin: 5px 5px 25px 5px;
     padding: 10px 0px;
@@ -48,7 +41,7 @@ body {
     transition: 0.5s;
 }
 
-div.tabs {
+div.ryrtryas {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -66,7 +59,7 @@ div.tabs {
     transition: 0.5s;
 }
 
-div.tabs:hover {
+div.ryrtryas:hover {
     background-color: #181A1Eee;
 }
 
@@ -81,7 +74,7 @@ div.tabs:hover {
     -webkit-text-fill-color: transparent;
 }
 
-button.tabs {
+button.ryrtryas {
     float: left;
     cursor: pointer;
     color: #94A7FF;
@@ -97,7 +90,7 @@ button.tabs {
     transition: 0.5s;
 }
 
-button.tabs:hover {
+button.ryrtryas:hover {
     width: 150px;
     font-size: 12px;
     font-weight: bolder;
@@ -108,22 +101,6 @@ button.tabs:hover {
     background-color: #94A7FF;
 }
 
-.container {
-    background-color: #181A1E;
-    box-sizing: border-box;
-    align-self: center!important;
-    margin: 40px auto;
-    width: 100%;
-    height: fit-content;
-}
-
-.slide {
-    box-sizing: border-box;
-    height: 100%;
-    width: 80%;
-    transition: transform 0.5s ease-in-out;
-}
-
 div.ts {
     color: #94A7FF;
     justify-content: center;
@@ -131,7 +108,7 @@ div.ts {
     vertical-align: middle!important;
     margin: 30px auto;
     width: 100vw;
-    height: 300px;
+    height: 200px;
     border: 1px solid #94A7FF;
     border-width: 1px 0px;
     background-color: #181A1Ecc;
