@@ -136,7 +136,7 @@ div.ts {
     vertical-align: middle!important;
     margin: 30px auto;
     width: 100vw;
-    height: 300px;
+    height: fit-content;
     border: 1px solid #94A7FF;
     border-width: 1px 0px;
     background-color: #181A1Ecc;

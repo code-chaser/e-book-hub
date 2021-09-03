@@ -160,41 +160,34 @@ button.tabs:hover {
     transition: transform 0.5s ease-in-out;
 }
 
-div.ts {
-    color: #94A7FF;
-    justify-content: center;
+div#ts {
+    box-sizing: border-box!important;
+    color: #94A7FF!important;
+    justify-content: center!important;
     text-align: center!important;
     vertical-align: middle!important;
-    margin: 30px auto;
-    width: 100vw;
-    height: 300px;
-    border: 1px solid #94A7FF;
-    border-width: 1px 0px;
-    background-color: #181A1Ecc;
-    -webkit-transition: 0.5s;
-    transition: 0.5s;
+    margin: 30px auto!important;
+    padding: 30px;
+    width: 100vw!important;
+    height: fit-content!important;
+    border: 1px solid #94A7FF!important;
+    border-width: 1px 0px!important;
+    background-color: #181A1Ecc!important;
+    -webkit-transition: 0.5s!important;
+    transition: 0.5s!important;
 }
 
 .welcome-text {
     color: #fff;
     font-size: 80px;
     font-family: 'Montserrat', sans-serif;
+    margin: auto 0px;
 }
 
 .lorem-ipsum {
     color: #fff;
     font-size: 15px;
     font-family: sans-serif;
-}
-
-.centralizzzzzz {
-    margin: auto;
-    height: fit-content;
-    align-self: center;
-    align-items: center;
-    text-align: center;
-    justify-content: center;
-    vertical-align: middle;
 }
 
 #page-container {
