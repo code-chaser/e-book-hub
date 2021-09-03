@@ -12,10 +12,98 @@ body {
     padding: 10px;
 }
 
-.header {
-    background-image: -webkit-radial-gradient(#181A1Edd, #181A1E00 50%);
+.logo-img {
+    box-sizing: border-box;
+    height: 100px;
+    margin: 10px 10px 30px 10px;
+    padding: 15px 5px;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+}
+
+.logo-img:hover {
+    height: 110px;
+    margin: 5px 5px 25px 5px;
+    padding: 15px 5px;
+}
+
+.header-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: fit-content;
-    width: 340px;
+    margin: 0px;
+    padding: 20px;
+    border-bottom: 1px solid #94A7FF00;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+}
+
+div.tabs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    width: 100vw;
+    height: 42px;
+    border: 1px solid #94A7FF;
+    border-width: 1px 0px;
+    /* border-image: linear-gradient(to right, #181A1E, #94A7FF, #181A1E);
+    border-left: 0px solid transparent;
+    border-right: 0px solid transparent;
+    border-image-slice: 1; */
+    background-color: #181A1Eaa;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+}
+
+div.tabs:hover {
+    background-color: #181A1Eee;
+}
+
+.seperator {
+    margin: 0px;
+    letter-spacing: 0px;
+    padding: 0px;
+    font-size: 35px;
+    background: linear-gradient(to bottom, #181A1E00, #94A7FF, #181A1E00);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+button.tabs {
+    float: left;
+    cursor: pointer;
+    color: #94A7FF;
+    background-color: transparent;
+    border: 0px solid transparent;
+    margin: 7.5px 10px;
+    padding: 0px;
+    height: 30px;
+    width: 100px;
+    font-family: sans-serif;
+    font-size: 11px;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+}
+
+button.tabs:hover {
+    width: 150px;
+    font-size: 12px;
+    font-weight: bolder;
+    letter-spacing: 1px;
+    margin: 0px 0px;
+    height: 55px;
+    color: #181A1E;
+    background-color: #94A7FF;
+}
+
+.header {
+    height: fit-content;
+    width: fit-content;
     align-items: center;
     padding: 10px 10px 10px 0px;
     margin: 10px auto 10px auto;
@@ -23,27 +111,17 @@ body {
 
 .logo-div {
     height: fit-content;
+    width: fit-content;
     margin: 20px auto 50px auto;
     align-items: center;
     text-align: center!important;
 }
 
-.logo-img {
-    height: 100px;
-    padding: 5px;
-    -webkit-transition: 0.5s;
-    transition: 0.5s;
-}
-
-.logo-img:hover {
-    height: 110px;
-    padding: 0px;
-}
-
 .head-text {
     font-family: 'Montserrat', sans-serif;
     font-weight: 10;
-    font-size: 30px;
+    font-size: 40px;
+    margin: 50px 0px;
 }
 
 .login-box {
@@ -101,7 +179,7 @@ input[type=password] {
     margin: 0px 0px 0px auto;
 }
 
-button {
+.login-box button {
     float: right;
     margin: 0px 0px 10px 10px;
     cursor: pointer;
@@ -121,7 +199,7 @@ button {
     transition: 0.5s;
 }
 
-button:hover {
+.login-box button:hover {
     color: #0f0f11;
     font-family: sans-serif;
     letter-spacing: 3px;
