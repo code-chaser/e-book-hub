@@ -6,14 +6,39 @@ LOGO COLORS:
 BFCAFF 70% 
 */
 
+
+/* 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Open+Sans:wght@300&display=swap');
 body {
     min-height: 100%;
     background-color: #0f0f11;
+} */
+
+
+/*
+LOGO COLORS:
+94A7FF
+444665
+181A1E
+BFCAFF 70% 
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Open+Sans:wght@300&display=swap');
+body {
+    min-height: 100%;
+    background: url("./../img/background6.png") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-color: #0f0f11;
+    color: #FFF;
+    padding: 0px;
 }
 
-.logo-img-kjkjkj {
+.logo-img {
     height: 100px;
     margin: 10px 10px 30px 10px;
     padding: 15px 5px;
@@ -21,7 +46,7 @@ body {
     transition: 0.5s;
 }
 
-.logo-img-kjkjkj:hover {
+.logo-img:hover {
     height: 110px;
     margin: 5px 5px 25px 5px;
     padding: 10px 0px;
@@ -41,7 +66,7 @@ body {
     transition: 0.5s;
 }
 
-div.ryrtryas {
+div.tabs {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -59,7 +84,7 @@ div.ryrtryas {
     transition: 0.5s;
 }
 
-div.ryrtryas:hover {
+div.tabs:hover {
     background-color: #181A1Eee;
 }
 
@@ -74,7 +99,7 @@ div.ryrtryas:hover {
     -webkit-text-fill-color: transparent;
 }
 
-button.ryrtryas {
+button.tabs {
     float: left;
     cursor: pointer;
     color: #94A7FF;
@@ -90,7 +115,7 @@ button.ryrtryas {
     transition: 0.5s;
 }
 
-button.ryrtryas:hover {
+button.tabs:hover {
     width: 150px;
     font-size: 12px;
     font-weight: bolder;
@@ -101,6 +126,22 @@ button.ryrtryas:hover {
     background-color: #94A7FF;
 }
 
+.container {
+    background-color: #181A1E;
+    box-sizing: border-box;
+    align-self: center!important;
+    margin: 40px auto;
+    width: 100%;
+    height: fit-content;
+}
+
+.slide {
+    box-sizing: border-box;
+    height: 100%;
+    width: 80%;
+    transition: transform 0.5s ease-in-out;
+}
+
 div.ts {
     color: #94A7FF;
     justify-content: center;
@@ -108,7 +149,7 @@ div.ts {
     vertical-align: middle!important;
     margin: 30px auto;
     width: 100vw;
-    height: 200px;
+    height: 300px;
     border: 1px solid #94A7FF;
     border-width: 1px 0px;
     background-color: #181A1Ecc;
@@ -120,11 +161,35 @@ div.ts {
     color: #fff;
     font-size: 80px;
     font-family: 'Montserrat', sans-serif;
-    margin: auto 0px;
 }
 
 .lorem-ipsum {
     color: #fff;
     font-size: 15px;
     font-family: sans-serif;
+}
+
+.centralizzzzzz {
+    margin: auto;
+    height: fit-content;
+    align-self: center;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    vertical-align: middle;
+}
+
+#page-container {
+    width: fit-content;
+    background-color: #181A1Ebb;
+    border: 1px solid #94A7FF;
+    align-self: center!important;
+    margin: 5px auto;
+    /* background: linear-gradient(to right, #181A1E00, #181A1Edd, #181A1E00) no-repeat center center fixed; */
+}
+
+#footer-info {
+    width: 100%;
+    text-align: center;
+    margin: 2px auto;
 }
