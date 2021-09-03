@@ -8,8 +8,13 @@ BFCAFF 70%
 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Open+Sans:wght@300&display=swap');
+* {
+    box-sizing: border-box;
+}
+
 body {
     min-height: 100%;
+    width: 100vw;
     background: url("./../img/background6.png") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;

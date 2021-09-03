@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Open+Sans:wght@300&display=swap');
+* {
+    box-sizing: border-box;
+}
+
 body {
     min-height: 100%;
     background: url("./../img/background6.png") no-repeat center center fixed;
@@ -9,7 +13,7 @@ body {
     background-size: cover;
     background-color: #0f0f11;
     color: #FFF;
-    padding: 10px;
+    padding: 0px;
 }
 
 ::placeholder {
@@ -30,7 +34,6 @@ body {
 }
 
 .logo-img {
-    box-sizing: border-box;
     height: 100px;
     margin: 10px 10px 30px 10px;
     padding: 15px 5px;
@@ -41,7 +44,7 @@ body {
 .logo-img:hover {
     height: 110px;
     margin: 5px 5px 25px 5px;
-    padding: 15px 5px;
+    padding: 10px 0px;
 }
 
 .header-1 {
