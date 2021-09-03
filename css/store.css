@@ -30,12 +30,6 @@ BFCAFF 70%
     box-sizing: border-box;
 }
 
-@media (prefers-reduced-motion:no-preference) {
-     :root {
-        scroll-behavior: smooth
-    }
-}
-
 body {
     margin: 0;
     font-family: var(--bs-body-font-family);
