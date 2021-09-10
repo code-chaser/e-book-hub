@@ -12,6 +12,17 @@ BFCAFF 70%
     box-sizing: border-box;
 }
 
+-webkit-scrollbar {
+    display: none;
+}
+
+* {
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+}
+
 body {
     min-height: 100%;
     width: 100vw;
