@@ -15,6 +15,26 @@ an online e-book store website for purchasing and downloading e-books
 <br>
 **No Backend yet ;-;**
 <br><br>
+## SCREENSHOTS
+
+<div style="text-align:center"><img src="https://user-images.githubusercontent.com/63065397/132886045-3beb0d7d-d605-4328-bce8-e8d80ff89b85.png" /></div>
+
+<br><hr><br>
+
+<div style="text-align:center"><img src="https://user-images.githubusercontent.com/63065397/132886690-bd125278-7a35-4fe8-9f67-5f1bf34f4dac.png" /></div>
+
+<br><hr><br>
+
+<div style="text-align:center"><img src="https://user-images.githubusercontent.com/63065397/132886842-8d9f1090-fb8e-475c-aa4b-3ed688bce887.png" /></div>
+
+<br><hr><br>
+
+<div style="text-align:center"><img src="https://user-images.githubusercontent.com/63065397/132886898-b6f9e1fc-79a4-4a26-9c7f-5706890cefb0.png" /></div>
+
+<br><hr>
+
+<br>
+
 ## TECH STACK
 * HTML
 * CSS
